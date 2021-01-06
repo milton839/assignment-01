@@ -103,6 +103,12 @@ section{
     font-size: 40px;
     color: #363958;
 }
+.link-button img{
+    width: 30px;
+    height: 30px;
+    padding-right: 20px;
+    margin-bottom: -8px;
+}
 /* ==================Banner Css End==================== */
 
 
@@ -148,14 +154,55 @@ section{
 /* ==================Project Css End==================== */
 
 
+/* ==================Experience Css Start==================== */
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.single-experience h2{
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.single-experience h3{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.single-experience p{
+    color: dimgray;
+}
+.experience-area h1{
+    padding: 50px 0;
+    text-align: center;
+    color: #393C5A;
+    text-transform: uppercase;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#fresh-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+/* ==================Experience Css End==================== */
+
+
 /* ==================work Css Start==================== */
 .work  {
+    background-image: url(../images/work.png);
+    background-repeat: no-repeat;
     width: 830px;
-    padding: 80px 0;
-    background-color: #4F46CF;
-    margin-top: 100px;
-    margin-left: 262px;
+    margin: 0 auto;
+    padding: 70px 0;
     border-radius: 25px;
+    margin-top: 100px;
+    background-size: cover;
+    background-position: center;
 }
 .work-item{
     float: left;
@@ -169,11 +216,13 @@ section{
 .work-button{
     float: right;
     margin-right: 60px;
+    margin-top: 20px;
 }
 .work-button h4 a{
     background-color: #F96D61;
     padding: 15px 25px;
     border-radius: 5px;
+    color: #fff;
 }
 /* ==================work Css End==================== */
 
